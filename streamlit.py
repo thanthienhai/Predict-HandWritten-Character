@@ -18,7 +18,7 @@ if choice == "Image":
     st.caption('Trang web này giúp bạn dự đoán chữ hoa viết tay với độ chính xác tương đối :)))')
     st.caption('Bạn hãy vẽ một bức ảnh có chứa một số bằng paint hoặc bất kì app nào khác, đừng vẽ thêm những thứ khác')
     st.caption('Sau đó lưu lại và upload vào đây nhé!!!')
-    st.image('itfes.png', caption='Website created by Than Thien')
+    st.caption('Cảm ơn bạn đã tin dùng, website created by Than Thien')
     image_file = st.file_uploader("Upload Images",
                                   type=["png", "jpg", "jpeg"])
 
