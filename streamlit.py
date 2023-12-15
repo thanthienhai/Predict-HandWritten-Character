@@ -14,8 +14,8 @@ choice = "Image"
 LABELS = {0: 'A', 1: 'B', 2: 'C', 3: 'D', 4: 'E', 5: 'F', 6: 'G', 7: 'H', 8: 'I', 9: 'J', 10: 'K', 11: 'L', 12: 'M', 13: 'N', 14: 'O', 15: 'P', 16: 'Q', 17: 'R', 18: 'S', 19: 'T', 20: 'U', 21: 'V', 22: 'W', 23: 'X', 24: 'Y', 25: 'Z'}
 if choice == "Image":
 
-    st.subheader("Dự đoán chữ số viết tay")
-    st.caption('Trang web này giúp bạn dự đoán chữ số viết tay với độ chính xác tương đối :)))')
+    st.subheader("Dự đoán chữ hoa viết tay")
+    st.caption('Trang web này giúp bạn dự đoán chữ hoa viết tay với độ chính xác tương đối :)))')
     st.caption('Bạn hãy vẽ một bức ảnh có chứa một số bằng paint hoặc bất kì app nào khác, đừng vẽ thêm những thứ khác')
     st.caption('Sau đó lưu lại và upload vào đây nhé!!!')
     image_file = st.file_uploader("Upload Images",
