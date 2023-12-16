@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 from tensorflow.keras.models import load_model
 
-model = load_model('modela_z.h5')
+model = load_model('modela_z_50epoch.h5')
 
 def resize_image(img, size=(28,28), border = 0.7857):
 
