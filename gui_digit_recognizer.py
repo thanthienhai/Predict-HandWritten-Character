@@ -25,7 +25,7 @@ import cv2
 # x_train /= 255
 # x_test /= 255
 
-model = load_model('modela_a.h5')
+model = load_model('modela_z_50epoch.h5')
 #
 # plt.subplot(221)
 # plt.imshow(x_train[0], cmap=plt.get_cmap('gray'))
